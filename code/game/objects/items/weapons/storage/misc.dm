@@ -210,3 +210,10 @@
 	starts_with = list(/obj/item/reagent_containers/food/snacks/grown/dried_tobacco/pure = 8)
 	icon_state = "roll_nico"
 	item_state = "Epacket"
+
+/obj/item/storage/chewables/rollable/reshi
+	name = ""
+	desc = ""
+	starts_with = list(/obj/item/reagent_containers/food/snacks/grown/ = 8)
+	icon_state = ""
+	item_state = ""

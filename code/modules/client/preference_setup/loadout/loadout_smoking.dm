@@ -90,8 +90,13 @@
 	gear_tweaks += new /datum/gear_tweak/path(leaves)
 
 /datum/gear/smoking/pipe
+	display_name = "dried reshi leaves"
+	description = "An unmarked box containing dried reshi leave"
+	path = /obj/item/storage/chewables/rollable/reshi
+
+/datum/gear/smoking/pipe
 	display_name = "pipe selection"
-	path = /obj/item/clothing/mask/smokable/pipe
+	path = /obj/item/storage/chewables/rollable/
 
 /datum/gear/smoking/pipe/New()
 	..()
